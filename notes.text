@@ -1,0 +1,22 @@
+Header has base info and links
+
+There are multiple pages with information
+    About me, portfolio, contace, and resume
+    The current selected tab is highlighted in some way
+    Home page is the about me
+
+About me
+    Has a photo/avatar and has a bio
+
+portfolio   
+    Has 6 applications, including live links and github links
+
+Contact me
+    Has a form with name, email, and a message
+    Doesn't let you submit an empty field
+
+Resume
+    Has a downloadable resume and my profenciencies
+
+Footer
+    Github and LinkedIn links
