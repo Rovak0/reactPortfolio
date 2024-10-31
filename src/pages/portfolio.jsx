@@ -15,6 +15,12 @@ import Project from '../components/Projects/project';
 //react for loops use map
 
 export default function PortfolioPage(props) {
+
+    //need a list of projects
+    //then iterate over the projects
+    const [projects, setProjects] = useState([]);
+    
+
     return (
         <>
             {/* will likely need to change this class */}
