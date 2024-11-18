@@ -6,15 +6,15 @@ export default function Head() {
     return (
         <Header
             sections={[
-                <nav key = {1}>
+                <Link key = {1}>
                     aboutMe
-                </nav>,
-                <nav key = {2}>
+                </Link>,
+                <Link key = {2}>
                     placeholder0
-                </nav>,
-                <nav key = {3}>
+                </Link>,
+                <Link key = {3}>
                     placeholder1
-                </nav>,
+                </Link>,
             ]}
         />
     )

@@ -3,10 +3,17 @@ import { Link, useLocation } from 'react-router-dom';
 
 import photo from "../assets/selfPhoto.jpeg"
 
+//portfolio (currently placeHolder0) will be a function that recieves a list
+import Portfolio from "./portfolio";
+//import the list
+// import projectsList from '../assets/projectSeed';
+
 export default function HomePage() {
     //I don't need to fetch any data for the home page
     //I do need to pull in the image though
     //It just returns the about me info
+
+
     return (
         <div className='mainBody'>
             {/* react needs to return exactly 1 component, make it a big one with small parts inside */}
@@ -27,6 +34,11 @@ export default function HomePage() {
             <div className="container pt-4 placeHolder0">
                 <img className="w-8" src={photo}></img>
             </div>
+
+            {/* call portfolio */}
+            <Portfolio/> 
+
+
 
             <div className="container pt-4 placeHolder1">
                 <img className="w-8" src={photo}></img>

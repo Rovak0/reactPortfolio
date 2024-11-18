@@ -11,6 +11,11 @@ import Resume from './pages/resume.jsx';
 // import { element } from 'prop-types'; //It keeps trying to put this here
 //I should make an error page
 
+// import {createRoot} from 'react-dom/client';
+
+// const domNode = document.getElementById('root');
+// const root = createRoot(domNode);
+
 //app routing
 const router = createBrowserRouter([
     {
