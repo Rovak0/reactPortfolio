@@ -42,9 +42,9 @@ export default function PortfolioPage() {
             {/* will likely need to change this class */}
             <ul className="list-group">
                 {projects.map((item) => {
-                    // console.log(item);
+                    console.log(item);
                     return (
-                        <Project key={item[0]}>
+                        <Project key={item.name}>
                             {/* I think this will loop through and that this is how you call functions in react */}
                             {item}
                         </Project>
