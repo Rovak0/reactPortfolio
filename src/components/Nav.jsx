@@ -6,18 +6,22 @@ export default function Nav() {
   // The Navbar UI component will render each of the Link elements in the links prop
   //These are the links on the header
   return (
-    <Navbar
+    <Navbar className="headerBar"
       links={[
-        <Link key={1} className="nav-link text-light" to="/">
+        // nav-link text-light 
+        <Link key={1} className="navListItem" to="/">
+            Home
+        </Link>,
+        <Link key={2} className="navListItem" to="/AboutMe">
             About Me
         </Link>,
-        <Link key={2} className="nav-link text-light" to="/Portfolio">
+        <Link key={3} className="navListItem" to="/Portfolio">
             Portfolio
         </Link>,
-        <Link key={3} className="nav-link text-light" to="/Contact">
+        <Link key={4} className="navListItem" to="/Contact">
             Contact Me
         </Link>,
-        <Link key={4} className="nav-link text-light" to="/Resume">
+        <Link key={5} className="navListItem" to="/Resume">
             Resume
         </Link>,
       ]}

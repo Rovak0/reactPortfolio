@@ -8,6 +8,7 @@ import Contact from './pages/contactMe.jsx';
 import Home from './pages/home.jsx'; //about me is the home page
 import Portfolio from './pages/portfolio.jsx';
 import Resume from './pages/resume.jsx';
+import AboutMe from './pages/aboutMe.jsx';
 // import { element } from 'prop-types'; //It keeps trying to put this here
 //I should make an error page
 
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
             {
                 index: true,
                 element: <Home />
+            },            
+            {
+                path: '/AboutMe',
+                element: <AboutMe />
             },
             {
                 path: '/Contact',

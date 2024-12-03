@@ -1,0 +1,52 @@
+body{
+    /* color : black; */
+}
+
+.navListItem {
+    /* text-align: center; */
+    font-size: 250%;
+    padding: 10px;
+    /* background-color: blue; */
+}
+
+.headerBarBase{
+    padding: 10px;
+    text-align: center;
+    border-color: black;
+    border-bottom: 5px;
+    border-bottom: solid;
+
+    /* background-color: blue; */
+}
+
+.aboutMe{
+    /* display: inline-block; */
+    text-align: center;
+    padding: 10px;
+    border-color: black;
+    border-bottom: 5px;
+    border-bottom: solid;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.aboutMeText{
+    /* color:blue; */
+    /* display: flex; */
+    /* justify-content: center; */
+
+}
+
+.photoOfMe{
+    /* size: 25%;
+    border-color: purple;
+    border-right: 10px;
+    border-right: solid; */
+    /* height: 25%; */
+    width: 40%;
+    padding: 5px;
+    border-color: black;
+    border: solid 5px;
+}
+/* aboutMeSub */

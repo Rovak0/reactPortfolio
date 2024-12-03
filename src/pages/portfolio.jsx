@@ -26,16 +26,25 @@ export default function PortfolioPage() {
     // console.log(projectList);
 
     const [projects, setProjects] = useState([]);
+    // console.log()
+    if(!tracker && projects.length == 0){
+        // console.log("no tracker no projects");
+        setProjects(projectList);
+    }
+
     if(tracker){
-        // console.log("setting");
+        // console.log("setting")
+        // console.log(projects);
+        // if(projects.length == 0){
+        //     console.log("stuff exists in the void");
+        // }
         setProjects(projectList);
         tracker = 0;
     }
 
+
     // console.log(projects);
 
-
-    
 
     return (
         <>
