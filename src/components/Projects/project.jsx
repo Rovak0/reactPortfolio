@@ -14,17 +14,23 @@ export default function projectCard(project) {
 
     return(
         <>
-            <div className="ms-2 me-auto">
+            <div className="projectCard">
                 <h2 className="fw-bold mb-1">{project.children.name}</h2>
                 {/* <img src={image}> </img> */}
-                <a href={project.children.gitHub}>Or find it on Github</a>
+                <a href={project.children.gitHub}>Find it on Github</a>
                 {/* line break */}
                 <br></br>
                 {/* this is an if block to manage live site */}
                 {project.children.live ? (
                     <a href={project.children.live}>Check out the live site!</a>
                   ) : (
-                    <h3 className="mb-1">There currently is no live site</h3>
+                    <p className="mb-1">There currently is no live site</p>
+                )}
+                {project.children.notes ? (
+                    <p> {project.children.notes} </p>
+                  ) : (
+                    // <p className="mb-1">There currently is no live site</p>
+                    <p className="mb-1"></p>
                 )}
             </div>
         </>

@@ -50,3 +50,35 @@ body{
     border: solid 5px;
 }
 /* aboutMeSub */
+
+/* projectList */
+.projectList{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    border-color: black;
+    border: solid 5px;
+}
+
+/* projectCard */
+.projectCard{
+    text-align: center;
+    width: 25%;
+    margin: 10px;
+    padding: 5px;
+    border-color: black;
+    border: solid 5px;
+}
+
+.contacts{
+    /* display: inline-block; */
+    text-align: center;
+    padding: 10px;
+    border-color: black;
+    border-bottom: 5px;
+    border-bottom: solid;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}

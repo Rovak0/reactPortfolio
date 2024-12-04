@@ -49,7 +49,7 @@ export default function PortfolioPage() {
     return (
         <>
             {/* will likely need to change this class */}
-            <ul className="list-group">
+            <ul className="projectList">
                 {projects.map((item) => {
                     console.log(item);
                     return (
