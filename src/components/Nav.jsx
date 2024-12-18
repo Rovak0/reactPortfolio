@@ -12,18 +12,18 @@ export default function Nav() {
         <Link key={1} className="navListItem" to="/">
             Home
         </Link>,
-        <Link key={2} className="navListItem" to="/AboutMe">
-            About Me
-        </Link>,
+        // <Link key={2} className="navListItem" to="/AboutMe">
+        //     About Me
+        // </Link>,
         <Link key={3} className="navListItem" to="/Portfolio">
             Portfolio
         </Link>,
         <Link key={4} className="navListItem" to="/Contact">
             Contact Me
         </Link>,
-        <Link key={5} className="navListItem" to="/Resume">
-            Resume
-        </Link>,
+        // <Link key={5} className="navListItem" to="/Resume">
+        //     Resume
+        // </Link>,
       ]}
     />
   );
