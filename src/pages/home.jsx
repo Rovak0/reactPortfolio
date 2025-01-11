@@ -39,10 +39,10 @@ export default function HomePage() {
             </div> */}
 
             {/* call portfolio */}
-            <Portfolio/> 
+            {/* <Portfolio/>  */}
 
             {/* call contact me */}
-            <ContactPage />
+            {/* <ContactPage /> */}
 
 {/* 
             <div className="container pt-4 placeHolder1">

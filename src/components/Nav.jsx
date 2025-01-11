@@ -1,5 +1,6 @@
 // Bringing in the required import from 'react-router-dom'
 import { Link } from 'react-router-dom';
+import { Button } from "rsuite"; 
 import Navbar from './UI/NavUI';
 
 export default function Nav() {
@@ -10,16 +11,22 @@ export default function Nav() {
       links={[
         // nav-link text-light 
         <Link key={1} className="navListItem" to="/">
+          <button type="button" className="navButton">
             Home
+          </button>
         </Link>,
         // <Link key={2} className="navListItem" to="/AboutMe">
         //     About Me
         // </Link>,
         <Link key={3} className="navListItem" to="/Portfolio">
+          <button type="button" className="navButton">
             Portfolio
+          </button>
         </Link>,
         <Link key={4} className="navListItem" to="/Contact">
+          <button type="button" className="navButton">
             Contact Me
+          </button>
         </Link>,
         // <Link key={5} className="navListItem" to="/Resume">
         //     Resume

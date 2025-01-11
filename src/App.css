@@ -1,12 +1,34 @@
-*{
-    background-color: rgb(200, 200, 200);
+body{
+    /* background-color: rgb(167, 172, 170); */
+    background-color: paleturquoise;
 }
+
+/* #root{
+    transition: all .5s;
+} */
+
+/* #root:hover{
+    transform: rotateX(150deg);
+    transform: rotateY(150deg);
+    transform: rotateZ(150deg);
+} */
 
 .navListItem {
     /* text-align: center; */
     font-size: 250%;
     padding: 10px;
     /* background-color: blue; */
+}
+
+.navButton {
+    width:15%;
+    height:50px;
+    font-size:100%;
+    background-color: rgb(200, 200, 200);
+}
+
+.navButton:hover {
+    background-color: rgb(146, 146, 146);
 }
 
 .headerBarBase{
@@ -29,12 +51,17 @@
     display: flex;
     /* justify-content: center; */
     align-items: center;
+    font-size: 150%;
 }
 
 .aboutMeText{
     /* color:blue; */
     /* display: flex; */
     /* justify-content: center; */
+    background-color: azure;
+    border-color: black;
+    border: solid 5px;
+    padding:2%;
 
 }
 
@@ -48,7 +75,13 @@
     padding: 5px;
     border-color: black;
     border: solid 5px;
+    background-color: rgba(240, 255, 255, 0.473);
+
 }
+
+
+
+
 /* aboutMeSub */
 
 /* projectList */
@@ -64,8 +97,22 @@
 /* projectCard */
 .projectCard{
     text-align: center;
-    width: 25%;
+    width: 75%;
     margin: 10px;
+    padding: 5px;
+    border-color: black;
+    border: solid 5px;
+    background-color: azure;
+    border-radius: 25px;
+}
+
+.projectImg{
+    /* size: 25%;
+    border-color: purple;
+    border-right: 10px;
+    border-right: solid; */
+    /* height: 25%; */
+    width: 40%;
     padding: 5px;
     border-color: black;
     border: solid 5px;
@@ -78,7 +125,16 @@
     border-color: black;
     border-bottom: 5px;
     border-bottom: solid;
-    /* display: flex; */
-    /* justify-content: center; */
+    display: flex;
+    justify-content: center;
     /* align-items: center; */
+}
+
+.subContact{
+    width:75%;
+    background-color: azure;
+    padding:25px;
+    border-radius : 25px;
+    border-color: black;
+    border: solid 5px;
 }

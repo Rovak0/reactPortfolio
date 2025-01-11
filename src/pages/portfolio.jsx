@@ -13,6 +13,8 @@ import Project from '../components/Projects/project';
 //import the projectsList
 import projectList from "../assets/projectSeed";
 
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 //react for loops use map
 
@@ -43,15 +45,42 @@ export default function PortfolioPage() {
     }
 
 
-    // console.log(projects);
+    //could make it responsive and scale the number of items based off of screen
+        //may do this later
+    // function responsive(size) {
+    //     desktop: {
+    //         breakPoint: { max: 4000, min:3000}
+    //     }
+    // }
+
+    const responsive = {
+        tablet: {
+          breakpoint: { max: 4000, min: 464 },
+          items: 2
+        },
+        mobile: {
+          breakpoint: { max: 464, min: 0 },
+          items: 1
+        }
+      };
 
 
     return (
         <>
             {/* will likely need to change this class */}
-            <ul className="projectList">
+            {/* <ul className="projectList">
                 {projects.map((item) => {
-                    console.log(item);
+                    return (
+                        <Project key={item.name}>
+                            {item}
+                        </Project>
+                    )
+                })}
+            </ul> */}
+
+            {/* will likely need to change this class */}
+            <Carousel responsive={responsive}>
+                {projects.map((item) => {
                     return (
                         <Project key={item.name}>
                             {/* I think this will loop through and that this is how you call functions in react */}
@@ -59,7 +88,7 @@ export default function PortfolioPage() {
                         </Project>
                     )
                 })}
-            </ul>
+            </Carousel>
         </>
     )
 };

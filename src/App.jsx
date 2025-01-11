@@ -4,6 +4,8 @@ import Nav from './components/Nav';
 // import Header from './components/UI/header';
 import Head from './components/UI/header';
 
+// import { AnimatePresence } from "framer-motion";
+
 // import {createRoot} from 'react-dom/client';
 
 // const domNode = document.getElementById('root');

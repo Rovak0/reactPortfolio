@@ -18,6 +18,10 @@ export default function AboutMe() {
                     <h1>About Me</h1>
                     <p>I started coding early 2024 with python.  I learned HTML, CSS, and Javascript through a coding bootcamp with
                         UNC Charlotte over the summer of 2024.  I am currently learing C++.</p>
+                    <p></p>
+                    <a href="https://www.credly.com/badges/bc7e1fec-64cb-426b-b3b0-a68965c4911a/public_url">
+                        The badge for the bootcamp.
+                    </a>
                     <p>I love the logic behind coding, specifically the logic of backends.</p>
                 </div>
                 <div className="aboutMePhoto">

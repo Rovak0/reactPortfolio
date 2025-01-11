@@ -12,13 +12,15 @@
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "render-build":"npm install && npm run build"
+    "render-build": "npm install && npm run build"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-multi-carousel": "^2.8.5",
     "react-router-dom": "^6.10.0",
-    "react-scroll": "^1.9.0"
+    "react-scroll": "^1.9.0",
+    "rsuite": "^5.76.3"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
