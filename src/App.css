@@ -113,9 +113,10 @@ body{
     border-right: solid; */
     /* height: 25%; */
     width: 40%;
-    padding: 5px;
+    padding: 10px;
     border-color: black;
     border: solid 5px;
+    background-color: #E2BEF1;
 }
 
 .contacts{
