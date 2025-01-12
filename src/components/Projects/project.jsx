@@ -15,12 +15,25 @@ export default function projectCard(project) {
             <div className="projectCard">
                 <h2 className="fw-bold mb-1">{project.children.name}</h2>
                 {/* <img src={image}> </img> */}
-                {project.children.image ? (
+                {(project.children.image || project.children.video)? (
                     // <img src={project.children.image}> </img>
-                    <img className="projectImg" src={project.children.image}></img>
-                    
+                    (project.children.image ? (
+                        <img className="projectImg" src={project.children.image}></img>
+                    ):(
+                        // <img className="projectImg" src={project.children.image}></img>
+                        <video className="projectVideo" src={project.children.video} controls autoplay="autoplay" loop>
+                             {/* <source  src={project.children.video} type="video/mp4"> </source> */}
+                         </video>
+                    ))
                   ) : (
-                    <p className="mb-1">There currently is no imgae</p>
+                    // now it goes into another if case to check for video
+                    // {project.children.image ? (
+                    //     <img className="projectImg" src={project.children.image}></img>
+                        
+                    //   ) : (
+                    //     <p className="mb-1">There currently is no imgae</p>
+                    // )}
+                    <p className="mb-1">There currently is no image</p>
                 )}
                 <br></br>
                 <a href={project.children.gitHub}>Find it on Github</a>

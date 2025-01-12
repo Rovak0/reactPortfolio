@@ -3,32 +3,51 @@ body{
     background-color: paleturquoise;
 }
 
-/* #root{
-    transition: all .5s;
-} */
+.headerList{
+    list-style-type:none;
+    display:inline;    
+    white-space: nowrap;
+    /* background-color: green */
+}
 
-/* #root:hover{
-    transform: rotateX(150deg);
-    transform: rotateY(150deg);
-    transform: rotateZ(150deg);
-} */
+ul > li{
+    display:inline-block;
+    /* background-color: green; */
+
+}
 
 .navListItem {
     /* text-align: center; */
-    font-size: 250%;
-    padding: 10px;
+    font-size: 200%;
+    /* padding: 3%; */
+    margin-top:1%;
+    margin-bottom:1%;
+    margin-right:5%;
+    margin-left:5%;
     /* background-color: blue; */
 }
 
 .navButton {
-    width:300px;
-    height:50px;
+    width:200px;
+    /* display: block; */
+    /* width:200%; */
+    height:75px;
     font-size:100%;
     background-color: rgb(200, 200, 200);
 }
 
 .navButton:hover {
     background-color: rgb(146, 146, 146);
+}
+
+.selected {
+    width:200px;
+    /* display: block; */
+    /* width:200%; */
+    height:75px;
+    font-size:100%;
+    background-color: rgb(146, 146, 146);
+    /* background-color: rgb(57, 144, 0); */
 }
 
 .headerBarBase{
@@ -62,6 +81,7 @@ body{
     border-color: black;
     border: solid 5px;
     padding:2%;
+    margin-left:5%;
 
 }
 
@@ -75,7 +95,8 @@ body{
     padding: 5px;
     border-color: black;
     border: solid 5px;
-    background-color: rgba(240, 255, 255, 0.473);
+    /* background-color: rgba(240, 255, 255, 0.473); */
+    background-color: #E2BEF1;
 
 }
 
@@ -104,6 +125,8 @@ body{
     border: solid 5px;
     background-color: azure;
     border-radius: 25px;
+    margin-left:10%;
+    margin-right:10%;
 }
 
 .projectImg{
@@ -113,6 +136,19 @@ body{
     border-right: solid; */
     /* height: 25%; */
     width: 40%;
+    padding: 10px;
+    border-color: black;
+    border: solid 5px;
+    background-color: #E2BEF1;
+}
+
+.projectVideo{
+    /* size: 25%;
+    border-color: purple;
+    border-right: 10px;
+    border-right: solid; */
+    /* height: 25%; */
+    width: 75%;
     padding: 10px;
     border-color: black;
     border: solid 5px;

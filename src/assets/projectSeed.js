@@ -7,6 +7,7 @@
 
 import pythonChessImg from "./projectImages/chessPython.png";
 import onlineChessImg from "./projectImages/chessOnline.png";
+import orbitsVideo from "./projectImages/orbits.mp4";
 
 
 const Cathedral = {
@@ -31,10 +32,17 @@ const pythonChess = {
     notes: "This is a version of chess built in python using the Pygame library."
 };
 
+const orbits = {
+    name: "Orbits",
+    gitHub: "https://github.com/Rovak0/orbits",
+    notes: "This is a python program that simulates the effects of gravity on orbs.  Built using Pygame.",
+    video: orbitsVideo
+};
+
+
 const projects = [
     Cathedral,
+    pythonChess,
     Gold_Dive,
-    pythonChess
+    orbits
 ];
-
-export default projects;
