@@ -21,7 +21,7 @@ export default function projectCard(project) {
                         <img className="projectImg" src={project.children.image}></img>
                     ):(
                         // <img className="projectImg" src={project.children.image}></img>
-                        <video className="projectVideo" src={project.children.video} controls autoplay="autoplay" loop>
+                        <video className="projectVideo" src={project.children.video} controls autoPlay="autoPlay" loop>
                              {/* <source  src={project.children.video} type="video/mp4"> </source> */}
                          </video>
                     ))

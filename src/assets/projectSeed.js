@@ -46,3 +46,5 @@ const projects = [
     Gold_Dive,
     orbits
 ];
+
+export default projects;
