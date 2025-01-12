@@ -91,6 +91,8 @@ ul > li{
     border-right: 10px;
     border-right: solid; */
     /* height: 25%; */
+    margin-top:5%;
+    margin-bottom:5%;
     width: 40%;
     padding: 5px;
     border-color: black;
@@ -127,6 +129,8 @@ ul > li{
     border-radius: 25px;
     margin-left:10%;
     margin-right:10%;
+    margin-top:5%;
+    margin-bottom:5%;
 }
 
 .projectImg{
@@ -165,6 +169,7 @@ ul > li{
     display: flex;
     justify-content: center;
     /* align-items: center; */
+    
 }
 
 .subContact{
@@ -174,4 +179,6 @@ ul > li{
     border-radius : 25px;
     border-color: black;
     border: solid 5px;
+    margin-top:5%;
+    margin-bottom:5%;
 }
