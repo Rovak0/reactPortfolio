@@ -16,12 +16,12 @@ export default function AboutMe() {
                 {/* to split the 2 sides, I will need 2 divs */}
                 <div className="aboutMeText">
                     <h1>About Me</h1>
-                    <p>I started coding early 2024 with python.  I learned HTML, CSS, and Javascript through a coding bootcamp with
-                        UNC Charlotte over the summer of 2024.  I am currently learing C++.</p>
-                    <p></p>
-                    <a href="https://www.credly.com/badges/bc7e1fec-64cb-426b-b3b0-a68965c4911a/public_url">
-                        The badge for the bootcamp.
-                    </a>
+                    {/* <p>I started coding early 2024 with python.  I learned HTML, CSS, and Javascript through a coding bootcamp with
+                        UNC Charlotte over the summer of 2024.  I am currently learing C++.</p> */}
+                    <p>I started coding in early 2024 with Python.  I was taught HTML, CSS, and Javascript through University of North Carolina at Charlotte 
+                        over the summer of 2024 (<a href="https://www.credly.com/badges/bc7e1fec-64cb-426b-b3b0-a68965c4911a/public_url">
+                        the certificate from the class</a>).  I am currently learing C++.  
+                    </p>
                     <p>I love the logic behind coding, specifically the logic of backends.</p>
                 </div>
                 <div className="aboutMePhoto">
