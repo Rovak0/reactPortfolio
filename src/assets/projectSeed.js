@@ -13,6 +13,7 @@ import orbitsVideo from "./projectImages/orbits.mp4";
 const Cathedral = {
     name: "Cathedral",
     image: onlineChessImg,
+    live: "https://cathedralonline.onrender.com/",
     gitHub: "https://github.com/Rovak0/cathedralOnline",
     notes: "Cathedral is an online chess game that can host 2 players.  It is built with JavaScript and uses an express server communicating with a postgres SQL database through sequelize library." 
     };
@@ -29,14 +30,16 @@ const pythonChess = {
     name: "Chess (Python)",
     gitHub: "https://github.com/Rovak0/Chess-python",
     image: pythonChessImg,
-    notes: "This is a version of chess built in python using the Pygame library."
+    notes: "This is a version of chess built in python using the Pygame library.",
+    noLive: true
 };
 
 const orbits = {
     name: "Orbits",
     gitHub: "https://github.com/Rovak0/orbits",
     notes: "This is a python program that simulates the effects of gravity on orbs.  Built using Pygame.",
-    video: orbitsVideo
+    video: orbitsVideo,
+    noLive: true
 };
 
 

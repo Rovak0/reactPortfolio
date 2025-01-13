@@ -14,36 +14,31 @@ export default function projectCard(project) {
         <>
             <div className="projectCard">
                 <h2 className="fw-bold mb-1">{project.children.name}</h2>
-                {/* <img src={image}> </img> */}
                 {(project.children.image || project.children.video)? (
-                    // <img src={project.children.image}> </img>
                     (project.children.image ? (
                         <img className="projectImg" src={project.children.image}></img>
                     ):(
-                        // <img className="projectImg" src={project.children.image}></img>
                         <video className="projectVideo" src={project.children.video} controls autoPlay="autoPlay" loop>
-                             {/* <source  src={project.children.video} type="video/mp4"> </source> */}
                          </video>
                     ))
                   ) : (
-                    // now it goes into another if case to check for video
-                    // {project.children.image ? (
-                    //     <img className="projectImg" src={project.children.image}></img>
-                        
-                    //   ) : (
-                    //     <p className="mb-1">There currently is no imgae</p>
-                    // )}
                     <p className="mb-1">There currently is no image</p>
                 )}
                 <br></br>
                 <a href={project.children.gitHub}>Find it on Github</a>
                 {/* line break */}
                 <br></br>
+                <br></br>
                 {/* this is an if block to manage live site */}
-                {project.children.live ? (
-                    <a href={project.children.live}>Check out the live site!</a>
+                {(project.children.live || project.children.noLive)? (
+                    // <img src={project.children.image}> </img>
+                    (project.children.live ? (
+                        <a href={project.children.live}>Check out the live site!</a>
+                    ):(
+                        <p className="mb-1">This is a standalone application.  </p>
+                    ))
                   ) : (
-                    <p className="mb-1">There currently is no live site</p>
+                    <p className="mb-1">There currently is no image</p>
                 )}
                 {project.children.notes ? (
                     <p> {project.children.notes} </p>

@@ -20,9 +20,9 @@ export default function AboutMe() {
                         UNC Charlotte over the summer of 2024.  I am currently learing C++.</p> */}
                     <p>I started coding in early 2024 with Python.  I was taught HTML, CSS, and Javascript through University of North Carolina at Charlotte 
                         over the summer of 2024 (<a href="https://www.credly.com/badges/bc7e1fec-64cb-426b-b3b0-a68965c4911a/public_url">
-                        the certificate from the class</a>).  I am currently learing C++.  
+                        the certificate from the class</a>).  I am currently learning C++.  
                     </p>
-                    <p>I love the logic behind coding, specifically the logic of backends.</p>
+                    <p>I love the logic and methodology behind coding.  </p>
                 </div>
                 <div className="aboutMePhoto">
                     <img className="photoOfMe" src={photo}></img>
