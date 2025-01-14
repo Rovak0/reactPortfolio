@@ -21,9 +21,8 @@ const Cathedral = {
 const Gold_Dive = {
     name : "Gold Dive",
     gitHub: "https://github.com/Rovak0/Gold_Dive",
-    live: "https://gold-dive-r5vs.onrender.com/",
-    notes: "Gold Dive is hosted on Render and has a database hosted on MongoDB.  The Render page, if not accessed recently, will shut down to save server space.  "
-    + "It may take a moment for Render to relaunch the webpage.  The MongoDB database fully shuts down if unused and the site will not work if that is the case."
+    // live: "https://gold-dive-r5vs.onrender.com/",
+    notes: "Gold Dive was hosted on Render and had a front end built using React.  The back end was hosted on an Appollo server and used graphQL to perform operations on the mongoDB database.  "
 };
 
 const pythonChess = {

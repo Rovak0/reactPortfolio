@@ -38,7 +38,7 @@ export default function projectCard(project) {
                         <p className="mb-1">This is a standalone application.  </p>
                     ))
                   ) : (
-                    <p className="mb-1">There currently is no image</p>
+                    <p className="mb-1">There currently is no live site</p>
                 )}
                 {project.children.notes ? (
                     <p> {project.children.notes} </p>
