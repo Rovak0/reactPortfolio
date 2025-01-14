@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 
-import photo from "../assets/selfPhoto.jpeg";
+import photo from "../assets/photoOfMe.jpg";
 
 
 export default function AboutMe() {
