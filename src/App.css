@@ -29,112 +29,34 @@ ul > li{
     /* display: block; */
     /* width:200%; */
     /* font-size:100%; */
-    background-color: rgb(129, 242, 121);
+    /* background-color: rgb(129, 242, 121); */
+    background-color: white;
+
 }
 
 .navButton:hover {
-    background-color: rgb(85, 163, 79);
+    box-shadow: 0 0 50px #cd82ed;
+    /* background-color: rgb(85, 163, 79); */
     /* background-color: rgb(146, 146, 146); */
 }
 
 .selected {
     /* background-color: rgb(146, 146, 146); */
-    background-color: rgb(85, 163, 79);
+    box-shadow: 0 0 50px #cd82ed;
+    /* background-color: rgb(85, 163, 79); */
+    background-color: white;
 }
 
-/* the scaling part */
-@media screen and (min-width: 3000px ){
-    .navButton {
-        border-radius: 20px;
-        width:200px;
-        font-size:100%;
-        height:75px;
-        text-align: center;
-    }
-    .selected {
-        border-radius: 20px;
-        width:200px;
-        font-size:100%;
-        height:75px;
-        text-align: center;
-    }
-    .navListItem {
-        margin-top:1%;
-        margin-bottom:1%;
-        margin-right:5%;
-        margin-left:5%;
-        text-align: center;
-    }
-    .projectCard{
-        font-size:200%;
-        box-shadow: 0 0 50px #cd82ed;
-    }
+.portfolio{
+    text-align: center;
+    padding: 10px;
+    border-color: black;
+    border-bottom: 5px;
+    border-bottom: solid;
+    display: flex;
+    box-shadow: 0 0 50px white;
 
-    .aboutMe{
-        font-size: 200%;
-    }
 }
-
-@media screen and (max-width: 2999px ){
-    .navButton {
-        border-radius: 15px;
-        width:150px;
-        font-size:100%;
-        height:50px;
-        text-align: center;
-    }
-    .selected {
-        border-radius: 15px;
-        width:150px;
-        font-size:100%;
-        height:50px;
-        text-align: center;
-    }
-    .navListItem {
-        margin-top:1%;
-        margin-bottom:1%;
-        margin-right:5%;
-        margin-left:3%;
-        text-align: center;
-    }
-    .projectCard{
-        font-size:150%;
-        box-shadow: 0 0 35px #cd82ed;
-    }
-
-    .aboutMe{
-        font-size: 150%;
-    }
-}
-
-@media screen and (max-width: 1499px ){
-    .navButton {
-        width:100px;
-        font-size:75%;
-        height:50px;
-        text-align: center;
-    }
-    .selected {
-        width:100px;
-        font-size:75%;
-        height:50px;
-        text-align: center;
-    }
-    .navListItem {
-        margin-top:1%;
-        margin-bottom:1%;
-        margin-right:5%;
-        margin-left:3%;
-        text-align: center;
-    }
-    .projectCard{
-        font-size:100%;
-    }  
-    .aboutMe{
-        font-size: 100%;
-    }
-}
-
 
 .headerBarBase{
     padding: 10px;
@@ -142,7 +64,7 @@ ul > li{
     border-color: black;
     border-bottom: 5px;
     border-bottom: solid;
-
+    
     /* background-color: blue; */
 }
 
@@ -155,6 +77,7 @@ ul > li{
     border-bottom: solid;
     display: flex;
     /* justify-content: center; */
+    box-shadow: 0 0 50px white;
     align-items: center;
 }
 
@@ -167,7 +90,9 @@ ul > li{
     border: solid 5px;
     padding:2%;
     margin-left:5%;
-
+    border-radius: 30px;
+    box-shadow: 0 0 50px #cd82ed;
+    
 }
 
 .photoOfMe{
@@ -179,11 +104,13 @@ ul > li{
     margin-top:5%;
     margin-bottom:5%;
     width: 40%;
-    padding: 5px;
+    padding: 10px;
     border-color: black;
     border: solid 5px;
     /* background-color: rgba(240, 255, 255, 0.473); */
     background-color: #E2BEF1;
+    box-shadow: 0 0 50px #cd82ed;
+    border-radius: 30px;
 }
 
 
@@ -252,6 +179,7 @@ ul > li{
     display: flex;
     justify-content: center;
     /* align-items: center; */
+    box-shadow: 0 0 50px white;
     
 }
 
@@ -264,4 +192,111 @@ ul > li{
     border: solid 5px;
     margin-top:5%;
     margin-bottom:5%;
+    box-shadow: 0 0 50px #cd82ed;
+}
+
+    /* the scaling part */
+@media screen and (min-width: 3000px ){
+    .navButton {
+        border-radius: 20px;
+        width:50%;
+        font-size:100%;
+        height:75px;
+        text-align: center;
+    }
+    .selected {
+        border-radius: 20px;
+        width:50%;
+        /* width:200px; */
+        font-size:100%;
+        height:75px;
+        text-align: center;
+    }
+    .navListItem {
+        margin-top:1%;
+        margin-bottom:1%;
+        margin-right:5%;
+        margin-left:5%;
+        text-align: center;
+        width:15%;
+    }
+    .projectCard{
+        font-size:200%;
+        box-shadow: 0 0 50px #cd82ed;
+    }
+
+    .aboutMe{
+        font-size: 200%;
+    }
+
+    .subContact{
+        font-size:200%;
+    }
+}
+
+@media screen and (max-width: 2999px ){
+    .navButton {
+        border-radius: 15px;
+        width:150px;
+        font-size:100%;
+        height:50px;
+        text-align: center;
+    }
+    .selected {
+        border-radius: 15px;
+        width:150px;
+        font-size:100%;
+        height:50px;
+        text-align: center;
+    }
+    .navListItem {
+        margin-top:1%;
+        margin-bottom:1%;
+        margin-right:5%;
+        margin-left:3%;
+        text-align: center;
+    }
+    .projectCard{
+        font-size:150%;
+        box-shadow: 0 0 35px #cd82ed;
+    }
+
+    .aboutMe{
+        font-size: 150%;
+    }
+
+    .subContact{
+        font-size:150%;
+    }
+}
+
+@media screen and (max-width: 1499px ){
+    .navButton {
+        width:100px;
+        font-size:75%;
+        height:50px;
+        text-align: center;
+    }
+    .selected {
+        width:100px;
+        font-size:75%;
+        height:50px;
+        text-align: center;
+    }
+    .navListItem {
+        margin-top:1%;
+        margin-bottom:1%;
+        margin-right:5%;
+        margin-left:3%;
+        text-align: center;
+    }
+    .projectCard{
+        font-size:100%;
+    }  
+    .aboutMe{
+        font-size: 100%;
+    }
+    .subContact{
+        font-size:100%;
+    }
 }

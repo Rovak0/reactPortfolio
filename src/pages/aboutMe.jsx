@@ -3,7 +3,6 @@ import { useParams, Link } from 'react-router-dom';
 
 import photo from "../assets/selfPhoto.jpeg";
 
-import './styles.css';
 
 export default function AboutMe() {
 

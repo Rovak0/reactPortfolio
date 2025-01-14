@@ -79,16 +79,18 @@ export default function PortfolioPage() {
             </ul> */}
 
             {/* will likely need to change this class */}
-            <Carousel responsive={responsive}>
-                {projects.map((item) => {
-                    return (
-                        <Project key={item.name}>
-                            {/* I think this will loop through and that this is how you call functions in react */}
-                            {item}
-                        </Project>
-                    )
-                })}
-            </Carousel>
+            {/* <div className='portfolio'> */}
+                <Carousel responsive={responsive} className='portfolio'>
+                    {projects.map((item) => {
+                        return (
+                            <Project key={item.name}>
+                                {/* I think this will loop through and that this is how you call functions in react */}
+                                {item}
+                            </Project>
+                        )
+                    })}
+                </Carousel>
+            {/* </div> */}
         </>
     )
 };
