@@ -10,6 +10,11 @@ function githubButton(){
     window.location.href = "https://github.com/Rovak0";
 }
 
+function linkedInButton(){
+    // console.log("Send to github");
+    window.location.href = "https://www.linkedin.com/in/eric-wong-5a5382347";
+}
+
 // this is contact information
 // should have a header of contact me, then ways to reach me
 export default function ContactPage() {
@@ -24,6 +29,7 @@ export default function ContactPage() {
                 {/* <h3>Checkout my Github : <a href="https://github.com/Rovak0">Rovak0</a></h3>  */}
                 {/* <h3>Checkout my Github : <a href="https://github.com/Rovak0">Rovak0</a></h3>  */}
                 <h3>Find me on Github: <button variant="outlined" onClick={githubButton}>Rovak0</button></h3>
+                <h3>Or find me on LinkedIn: <button variant="outlined" onClick={linkedInButton}>LinkedIn</button></h3>
             </div>
         </div>
     )
