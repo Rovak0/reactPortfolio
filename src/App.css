@@ -5,16 +5,24 @@ body{
 
 .headerList{
     list-style-type:none;
-    display:inline;    
+    /* display:inline;     */
+    display: flex;
+    justify-content: center;
     white-space: nowrap;
     /* background-color: green */
 }
 
 ul > li{
     display:inline-block;
+    float:none;
     /* background-color: green; */
 
 }
+
+/* .headerBar{
+    display: flex;
+    justify-content: center;
+} */
 
 .navListItem {
     font-size: 200%;
@@ -379,7 +387,6 @@ ul > li{
         border-color: black;
         border-bottom: 5px;
         border-bottom: solid;
-        /* display: flex; */
         box-shadow: 0 0 50px white;
         align-items: center;
     }
