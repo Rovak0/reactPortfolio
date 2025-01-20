@@ -233,11 +233,20 @@ ul > li{
 
     .aboutMe{
         font-size: 200%;
+        text-align: center;
+        padding: 10px;
+        border-color: black;
+        border-bottom: 5px;
+        border-bottom: solid;
+        display: flex;
+        box-shadow: 0 0 50px white;
+        align-items: center;
     }
 
     .subContact{
         font-size:200%;
     }
+
 }
 
 @media screen and (max-width: 2999px ){
@@ -272,11 +281,20 @@ ul > li{
 
     .aboutMe{
         font-size: 150%;
+        text-align: center;
+        padding: 10px;
+        border-color: black;
+        border-bottom: 5px;
+        border-bottom: solid;
+        display: flex;
+        box-shadow: 0 0 50px white;
+        align-items: center;
     }
 
     .subContact{
         font-size:150%;
     }
+
 }
 
 @media screen and (max-width: 1499px ){
@@ -341,6 +359,14 @@ ul > li{
     }  
     .aboutMe{
         font-size: 100%;
+        text-align: center;
+        padding: 10px;
+        border-color: black;
+        border-bottom: 5px;
+        border-bottom: solid;
+        display: flex;
+        box-shadow: 0 0 50px white;
+        align-items: center;
     }
     .subContact{
         font-size:100%;
