@@ -267,7 +267,7 @@ ul > li{
         border-color: black;
         border-bottom: 5px;
         border-bottom: solid;
-        display: flex;
+        /* display: flex; */
         box-shadow: 0 0 50px white;
         align-items: center;
     }
@@ -306,6 +306,14 @@ ul > li{
     }  
     .aboutMe{
         font-size: 100%;
+        text-align: center;
+        padding: 10px;
+        border-color: black;
+        border-bottom: 5px;
+        border-bottom: solid;
+        display: flex;
+        box-shadow: 0 0 50px white;
+        align-items: center;
     }
     .subContact{
         font-size:100%;
@@ -345,7 +353,8 @@ ul > li{
         border-color: black;
         border-bottom: 5px;
         border-bottom: solid;
-        display: flex;
+        /* display: flex; */
+        display:inline;
         box-shadow: 0 0 50px white;
         align-items: center;
     }
@@ -376,9 +385,10 @@ ul > li{
         margin-bottom:1%;
         margin-right:5%;
         margin-left:5%; */
+        margin:25px;
         width:15%;
         text-align: center;
-        padding:20px;
+        /* padding:20px; */
     }
     .projectCard{
         font-size:100%;
@@ -397,6 +407,7 @@ ul > li{
         border-bottom: 5px;
         border-bottom: solid;
         box-shadow: 0 0 50px white;
+        display:inline;
         align-items: center;
     }
 }
