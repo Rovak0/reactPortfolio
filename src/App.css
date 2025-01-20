@@ -390,10 +390,10 @@ ul > li{
         text-align: center;
     }
     .navListItem {
-        margin-top:1%;
+        /* margin-top:1%;
         margin-bottom:1%;
         margin-right:5%;
-        margin-left:5%;
+        margin-left:5%; */
         width:15%;
         text-align: center;
     }
