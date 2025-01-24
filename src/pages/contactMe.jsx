@@ -12,7 +12,7 @@ function githubButton(){
 
 function linkedInButton(){
     // console.log("Send to github");
-    window.location.href = "https://www.linkedin.com/in/eric-wong-5a5382347";
+    window.location.href = "https://linkedin.com/in/eric-wong-5a5382347";
 }
 
 // this is contact information

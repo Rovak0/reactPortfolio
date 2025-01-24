@@ -267,7 +267,7 @@ ul > li{
         border-color: black;
         border-bottom: 5px;
         border-bottom: solid;
-        /* display: flex; */
+        display: flex;
         box-shadow: 0 0 50px white;
         align-items: center;
     }
