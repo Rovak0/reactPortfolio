@@ -15,7 +15,7 @@ const Cathedral = {
     image: onlineChessImg,
     live: "https://cathedralonline.onrender.com/",
     gitHub: "https://github.com/Rovak0/cathedralOnline",
-    notes: "Cathedral is an online chess game that can host 2 players.  It is built with JavaScript and uses an express server communicating with a postgres SQL database through sequelize library." 
+    notes: "Cathedral is an online chess game that can host 2 players.  It is built with JavaScript and uses an express server communicating with a postgres SQL database through sequelize library.  The SQL database is hosted using Render's free service, so it goes down every month.  " 
     };
 
 const Gold_Dive = {
